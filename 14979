@@ -1,0 +1,86 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<script>
+function bgChange(bg)
+{
+    document.body.style.background=bg;
+}
+</script>
+<style>
+    b1{
+        padding-left: 5px;
+    }
+    fieldset{
+        text-align: center;
+    }
+   table::content {
+        text-align: center;
+    }
+    h1{
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+</style>
+</head>
+<fieldset>
+<body
+style="background-color: gray;">
+    <h1 style="text-align: center;color: orangered;">ORIGINE</h1>
+    <table
+    style="height: 10px;width: 120px;">
+    <tr>
+            <td
+            onmouseover="bgChange(this.style.backgroundColor)"
+            onmouseout="bgChange('transparent')"
+        style="background-color: khaki;"></td>
+        <td
+        onmouseover="bgChange(this.style.backgroundColor)"
+        onmouseout="bgChange('transparent')"
+        style="background-color: lightgreen;"></td>
+        <td
+        onmouseover="bgChange(this.style.backgroundColor)"
+        onmouseout="bgChange('transparent)"
+        style="background-color: lightpink;"></td>
+        <td
+        onmouseover="bgChange(this.style.backgroundColor)"
+        onmouseout="bgChange('transparent)"
+        style="background-color: lawngreen;"></td>
+        <td
+        onmouseover="bgChange(this.style.backgroundColor)"
+        onmouseout="bgChange('transparent)"
+        style="background-color: lightseagreen;"></td>
+        <td
+        onmouseover="bgChange(this.style.backgroundColor)"
+        onmouseout="bgChange('transparent)"
+        style="background-color: palegreen;"></td>
+    </tr>
+    </table>
+    ENTER YOUR E-MAIL<input type style="text-align-last: center;"="text"name="t1"placeholder="enter your E-mail">
+    <br><br>
+    PASSWORD<input type="password"name="p1"placeholder="********">
+    <br><br>
+    <button type="button"name="b1"value="LogIn" OnClick=show()>LogIn</button>
+<button type style="text-align-last: center;"="button"name="b2"value="SignIn">SignIn</button>
+</fieldset>
+<hr>
+         <fieldset style="text-align: center;"> 
+<h1>Create Your Account</h1>
+            Username: <input type="text"placeholder="enter username">
+            <br><br>
+            password: <input type="password"placeholder="*******">
+            <br><br>
+            E-mail:   <input type="email"placeholder="enter email">
+            <br><br>
+          Address:  <input type="textarea"placeholder="enter address">
+          <br><br>
+          Date Of Birth: <input type="date"placeholder="dd/mm/yyyy">
+          <br><br>
+          Gender: <input type="radio"value="male">male<input type="radio"value="female">female<input type="radio"value="other">other
+          <br>
+          <br>
+          <button type="button" value="submit">submit</button> <button type="reset"value="reset">reset</button>
+         </fieldset>
+
+</body>
+</html>
